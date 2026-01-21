@@ -115,15 +115,32 @@ hpe_audit_v3(prompt)
 ```
 
 ### 3. Quick Start: Vision Audit
+To run the exact audit on ConvNeXt, ensure you have internet access to fetch the standard ImageNet labels and test images.
 
 ```python
+import requests
+import torch
+# Asumsikan file disimpan di folder src/hpe_v3_vision_core.py
 from src.hpe_v3_vision_core import HoloConvNeXt_v3, hpe_audit_task
 
-# Load Model
-model = HoloConvNeXt_v3(dims=[256, 512, 1024, 2048])
-# Audit Image
-hpe_audit_task(model, img_url="cat.jpg", task_name="Tabby Cat Analysis")
+# 1. Initialize & Load Model
+# Menggunakan konfigurasi ConvNeXt-XL standar
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model = HoloConvNeXt_v3(dims=[256, 512, 1024, 2048]).to(device)
 
+# 2. Get ImageNet Class Labels (REQUIRED for exact logit mapping)
+print(">>> Downloading ImageNet Labels...")
+labels_url = "[https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt](https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt)"
+class_labels = requests.get(labels_url).text.splitlines()[1:]
+
+# 3. Run Audit (Must use URL input)
+# Test A: Pomeranian Dog
+hpe_audit_task(
+    model, 
+    "[https://raw.githubusercontent.com/pytorch/hub/master/images/dog.jpg](https://raw.githubusercontent.com/pytorch/hub/master/images/dog.jpg)", 
+    "Task 1: Pomeranian Audit", 
+    class_labels
+)
 ```
 
 ---
