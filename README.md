@@ -68,6 +68,17 @@ Layer Normalization is mathematically unstable for provenance tracking due to di
 
 ## 🧪 Benchmark & Validation (Evidence of Exactness)
 
+### 💻 Usage & Live Benchmark
+
+**Option 1: Interactive Benchmark (Recommended)**
+Since this notebook contains high-resolution topological plots, GitHub may fail to render it directly. Please click the badge below to run the exact audit live:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thecodedbyyou/HPE-HyperState-Provenance-Engine/blob/main/notebooks/HPE_v3_Official_Benchmark.ipynb)
+
+**Option 2: Static Preview**
+If the GitHub preview fails, view the pre-rendered outputs (graphs & logs) here:
+[View via NBViewer](https://nbviewer.org/github/thecodedbyyou/HPE-HyperState-Provenance-Engine/blob/main/notebooks/HPE_v3_Official_Benchmark.ipynb)
+
 ### Benchmark I: Large Language Model (Reasoning)
 * **Target:** `Qwen/Qwen2.5-0.5B-Instruct`
 * **Task:** Code Generation ("Write a simple python code for fibonacci sequence")
