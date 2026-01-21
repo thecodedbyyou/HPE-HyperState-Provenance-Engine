@@ -1,0 +1,12 @@
+torch>=2.0.0
+numpy
+matplotlib
+seaborn
+scipy
+requests
+Pillow
+timm
+transformers
+accelerate
+tiktoken
+einops
