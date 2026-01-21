@@ -97,7 +97,7 @@ Layer Normalization is mathematically unstable for provenance tracking due to di
 
 ### 1. Installation
 ```bash
-git clone [https://github.com/YourUsername/HPE-HyperState-Provenance-Engine.git](https://github.com/YourUsername/HPE-HyperState-Provenance-Engine.git)
+git clone [https://github.com/thecodedbyyou/HPE-HyperState-Provenance-Engine.git](https://github.com/thecodedbyyou/HPE-HyperState-Provenance-Engine.git)
 cd HPE-HyperState-Provenance-Engine
 pip install -r requirements.txt
 
