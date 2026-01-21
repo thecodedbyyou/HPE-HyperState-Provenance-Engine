@@ -1,11 +1,15 @@
-
+# Hyper-State Provenance Engine (HPE) v3.1
+### **Universal Exact Logit Decomposition & Crystalline Topology Discovery**
 
 ![Status](https://img.shields.io/badge/Status-Stable%20Research%20Beta-blue)
 ![Precision](https://img.shields.io/badge/Precision-Bit--Perfect%20(<1e--5)-brightgreen)
-![Framework](https://img.shields.io/badge/Powered%20By-PyTorch-red)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thecodedbyyou/HPE-HyperState-Provenance-Engine/blob/main/notebooks/HPE_v3_Official_Benchmark.ipynb)
+[![View via NBViewer](https://img.shields.io/badge/View%20Graphs-NBViewer-orange?logo=jupyter)](https://nbviewer.org/github/thecodedbyyou/HPE-HyperState-Provenance-Engine/blob/main/notebooks/HPE_v3_Official_Benchmark.ipynb)
+
 ---
+
 
 ## 📑 Abstract
 **The Black Box problem is solved not by approximation, but by conservation.**
