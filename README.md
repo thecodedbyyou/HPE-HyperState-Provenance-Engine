@@ -9,6 +9,23 @@
 [![View via NBViewer](https://img.shields.io/badge/View%20Graphs-NBViewer-orange?logo=jupyter)](https://nbviewer.org/github/thecodedbyyou/HPE-HyperState-Provenance-Engine/blob/main/notebooks/HPE_v3_Official_Benchmark.ipynb)
 
 ---
+<div align="center">
+  <h1>Hyper-State Provenance Engine (HPE) v3.1</h1>
+  <h3>Universal Exact Logit Decomposition & Crystalline Topology Discovery</h3>
+  <br>
+  <a href="https://www.youtube.com/watch?v=Sc1PlwCgPwY">
+    <img src="https://img.youtube.com/vi/Sc1PlwCgPwY/maxresdefault.jpg" alt="Watch the HPE v3 Presentation" style="width:100%; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
+  </a>
+  <br>
+  <br>
+  <p>
+    <b>📺 WATCH: I Solved the AI "Black Box" Problem at 15? (Martian Prize Submission)</b>
+    <br>
+    <i>A strict "Human-Architect, AI-Executor" methodology.</i>
+  </p>
+</div>
+<br>
+<hr>
 
 
 ## 📑 Abstract
