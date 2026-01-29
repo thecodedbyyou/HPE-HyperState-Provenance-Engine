@@ -9,15 +9,15 @@
 [![View via NBViewer](https://img.shields.io/badge/View%20Graphs-NBViewer-orange?logo=jupyter)](https://nbviewer.org/github/thecodedbyyou/HPE-HyperState-Provenance-Engine/blob/main/notebooks/HPE_v3_Official_Benchmark.ipynb)
 
 ---
-
 # Hyper-State Provenance Engine (HPE) v3.1
 ### Universal Exact Logit Decomposition & Crystalline Topology Discovery
 
-[![HPE v3 Presentation](https://img.youtube.com/vi/Sc1PlwCgPwY/maxresdefault.jpg)](https://www.youtube.com/watch?v=Sc1PlwCgPwY)
+[![HPE v3 Presentation](https://img.youtube.com/vi/Sc1PlwCgPwY/hqdefault.jpg)](https://www.youtube.com/watch?v=Sc1PlwCgPwY)
 
 > **📺 WATCH:** I Solved the AI "Black Box" Problem at 15? (Martian Prize Submission)
 >
 > *A strict "Human-Architect, AI-Executor" methodology.*
+
 
 ---
 
